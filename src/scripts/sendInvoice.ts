@@ -1,6 +1,6 @@
 // Example script to send an invoice
-import invoiceController from './controllers/invoiceController';
-import { Invoice } from './models/invoice';
+import invoiceController from '../controllers/invoiceController';
+import { Invoice } from '../models/invoice';
 
 const sampleInvoice: Invoice = {
   invoiceNumber: 'INV-1001',
